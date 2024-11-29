@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "jsx": "preserve",
+    "jsxImportSource": "solid-js",
+    "noUncheckedIndexedAccess": true,
+    "isolatedModules": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "baseUrl": "./",
+    "pretty": true,
+    "esModuleInterop": true,
+    "stripInternal": true,
+    "noUnusedLocals": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "target": "es2017",
+    "lib": ["ES2017", "DOM"]
+  },
+  "exclude": [
+    "dist",
+    "**/__typetests__/**"
+  ]
+}

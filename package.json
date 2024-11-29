@@ -1,0 +1,96 @@
+{
+  "name": "lingui-solid",
+  "version": "1.0.0",
+  "sideEffects": false,
+  "description": "SolidJS components for translations",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "author": {
+    "name": "Tomáš Ehrlich",
+    "email": "tomas.ehrlich@gmail.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "solidjs",
+    "component",
+    "i18n",
+    "internationalization",
+    "i9n",
+    "translation",
+    "icu",
+    "messageformat",
+    "multilingual",
+    "localization",
+    "l10n"
+  ],
+  "scripts": {
+    "build": "rimraf ./dist && vite build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Azq2/lingui-solid.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Azq2/lingui-solid/issues"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "exports": {
+    ".": {
+      "require": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      },
+      "import": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.mjs"
+      }
+    },
+    "./macro": {
+      "types": "./macro/index.d.ts",
+      "default": "./macro/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "LICENSE",
+    "README.md",
+    "dist/",
+    "macro/index.d.ts",
+    "macro/index.js"
+  ],
+  "peerDependencies": {
+    "@lingui/babel-plugin-lingui-macro": "5.0.0",
+    "@lingui/core": "^4.14.0",
+    "babel-plugin-macros": "2 || 3",
+    "solid-js": "^1.9.0"
+  },
+  "peerDependenciesMeta": {
+    "@lingui/babel-plugin-lingui-macro": {
+      "optional": true
+    },
+    "babel-plugin-macros": {
+      "optional": true
+    }
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.20.13"
+  },
+  "devDependencies": {
+    "@lingui/core": "^4.14.0",
+    "@microsoft/api-extractor": "7.48.0",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@solidjs/testing-library": "^0.8.10",
+    "@types/node": "^22.10.1",
+    "eslint-plugin-solid": "0.13.2",
+    "rimraf": "^6.0.1",
+    "solid-js": "^1.9.3",
+    "tsd": "^0.31.2",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.1",
+    "vite-plugin-dts": "^4.3.0",
+    "vite-plugin-solid": "^2.11.0"
+  }
+}
