@@ -10,18 +10,20 @@ More details: https://github.com/lingui/js-lingui/pull/2101
 1. Install required packages
 ```
 npm i lingui-solid
-npm i -D babel-plugin-lingui-solid-macro
+npm i -D babel-plugin-lingui-macro-solid babel-plugin-lingui-extract-messages-solid
 ```
 2. Modify `lingui.config.ts`
 ```ts
 import { LinguiConfig } from '@lingui/conf';
+improt extractor from 'babel-plugin-lingui-extract-messages-solid';
 
 const config: LinguiConfig = {
   // .....
   // This is required!
   runtimeConfigModule: {
     Trans: ["lingui-solid", "Trans"],
-    useLingui: ["lingui-solid", "useLingui"]
+    useLingui: ["lingui-solid", "useLingui"],
+    extractors: [extractor]
   }
 };
 export default config;
@@ -47,7 +49,7 @@ export default defineConfig({
 });
 ```
 # Usage
-In general, usage is same with [https://lingui.dev/ref/react](@react/solid).
+In general, usage is same with [@react/solid](https://lingui.dev/ref/react).
 
 Main component:
 ```ts
