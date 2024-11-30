@@ -42,7 +42,7 @@ export default defineConfig({
     lingui(), // this is required
     solidPlugin({
       babel: {
-        plugins: ["babel-plugin-lingui-solid-macro"], // this is also required!
+        plugins: ["babel-plugin-lingui-macro-solid"], // this is also required!
       }
     }),
     // ....
