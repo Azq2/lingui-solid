@@ -17,7 +17,7 @@ npm i -D babel-plugin-lingui-macro-solid babel-plugin-lingui-extract-messages-so
 2. Modify `lingui.config.ts`
 ```ts
 import { LinguiConfig } from '@lingui/conf';
-improt extractor from 'babel-plugin-lingui-extract-messages-solid';
+import extractor from 'babel-plugin-lingui-extract-messages-solid';
 
 const config: LinguiConfig = {
   // .....
