@@ -51,7 +51,7 @@ export default defineConfig({
 });
 ```
 # Usage
-In general, usage is same with [@react/solid](https://lingui.dev/ref/react).
+In general, usage is same with [@lingui/react](https://lingui.dev/ref/react).
 
 Main component:
 ```ts
