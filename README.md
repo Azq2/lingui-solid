@@ -1,4 +1,6 @@
-[![NPM Version](https://img.shields.io/npm/v/lingui-solid)](https://www.npmjs.com/package/lingui-solid)
+[![NPM Version](https://img.shields.io/npm/v/lingui-solid?label=lingui-solid)](https://www.npmjs.com/package/lingui-solid)
+[![NPM Version](https://img.shields.io/npm/v/babel-plugin-lingui-macro-solid?label=babel-plugin-lingui-macro-solid)](https://www.npmjs.com/package/babel-plugin-lingui-macro-solid)
+[![NPM Version](https://img.shields.io/npm/v/babel-plugin-lingui-extract-messages-solid?label=babel-plugin-lingui-extract-messages-solid)](https://www.npmjs.com/package/babel-plugin-lingui-extract-messages-solid)
 
 # Summary
 
