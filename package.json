@@ -1,6 +1,6 @@
 {
   "name": "lingui-solid",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "sideEffects": false,
   "description": "SolidJS components for translations",
   "main": "./dist/index.cjs",
