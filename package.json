@@ -62,8 +62,8 @@
     "macro/index.js"
   ],
   "peerDependencies": {
-    "@lingui/babel-plugin-lingui-macro": "5.0.0",
-    "@lingui/core": "^4.14.0",
+    "@lingui/babel-plugin-lingui-macro": "^5.0.0",
+    "@lingui/core": "^5.0.0",
     "babel-plugin-macros": "2 || 3",
     "solid-js": "^1.6.0"
   },
@@ -79,7 +79,6 @@
     "@babel/runtime": "^7.20.13"
   },
   "devDependencies": {
-    "@lingui/core": "^4.14.0",
     "@microsoft/api-extractor": "7.48.0",
     "@rollup/plugin-babel": "^6.0.4",
     "@solidjs/testing-library": "^0.8.10",
